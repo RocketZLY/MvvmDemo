@@ -29,7 +29,7 @@
 
 ### 项目结构图
 
-![](http://of1ktyksz.bkt.clouddn.com/mvvm_architecture.png)
+![](http://rocketzly.androider.top/mvvm_architecture.png)
 
 上面是mvvm基本的结构图，act/fra和xml是v处理ui操作、viewmodel是vm处理业务逻辑、repository是m提供数据，他们之间是一种单项的持有关系activity/fragment持有vm，vm持有model。
 
@@ -288,7 +288,7 @@ class MainActivity : AppCompatActivity() {
 
 然后make project会生成一个布局名称+Binding的类，生成的路径如下
 
-![](http://of1ktyksz.bkt.clouddn.com/mvvm_generate_class.png)
+![](http://rocketzly.androider.top/mvvm_generate_class.png)
 
 这个类就是按我们xml中所写生成的，这里把完整的生成类贴出来可以大概的看下。
 
